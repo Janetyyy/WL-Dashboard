@@ -1,0 +1,419 @@
+<HTML>
+  <head>
+    <link type="text/css" rel="stylesheet" href="dashboardstyle.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id='info'>
+      <h3>revenue</h3>
+      <h3>units sold</h3>
+      <h3>conversion</h3>
+        <div class= "info-box">
+          <div id='revenue-nav'>
+            <ul>
+              <li id='revenue-this-week-link'>This week</li>
+              <li id='revenue-last-week-link'>last week </li>
+              <li id='revenue-this-month-link'>this month</li>
+              <li id='revenue-this-year-link'>this year</li>
+              <li id='revenue-all-time-link'>All Time</li>
+            </ul>
+          </div>
+        </div>
+        <div class="info-box">
+          <div id='units-sold-nav'>
+            <ul>
+              <li id='units-sold-this-week-link'>This week</li>
+              <li id='units-sold-last-week-link'>last week </li>
+              <li id='units-sold-this-month-link'>this month</li>
+              <li id='units-sold-year-link'>this year</li>
+              <li id='units-sold-all-time-link'>All Time</li>
+            </ul>
+          </div>
+        </div>
+        <div class= "info-box">
+          <div id='conversion-nav'>
+            <ul>
+              <li id='conversion-this-week-link'>This week</li>
+              <li id='conversion-last-week-link'>last week </li>
+              <li id='conversion-this-month-link'>this month</li>
+              <li id='conversion-this-year-link'>this year</li>
+              <li id='conversion-all-time-link'>All Time</li>
+            </ul>
+          </div>
+        </div>
+    </div>
+
+    <div id='best-sellers-container'>
+    <div id='best-sellers-nav'>
+      <ul>
+        <li id='best-sellers-online-link'>Best Sellers Online</li>
+        <li id='best-sellers-in-stores-link'>Best Sellers In Stores </li>
+        <li id='best-sellers-online-last-week-link'>Last Week Online</li>
+        <li id='best-sellers-in-stores-last-week-link'>Last Week In Stores</li>
+        <li id='best-sellers-all-time-link'>All Time</li>
+      </ul>
+    </div>
+
+    <div id='best-sellers-online' class='best-seller-type'>
+      <ul>
+          <li>
+            <img src ="img/img-1.png"/>
+          </li>
+          <li>
+            <img src ="img/img-2.png"/>
+          </li>
+          <li>
+            <img src ="img/img-3.png"/>
+          </li>
+          <li>
+            <img src ="img/img-4.png"/>
+          </li>
+          <li>
+            <img src ="img/img-5.png"/>
+          </li>
+      </ul>
+    </div>
+
+    <div id='best-sellers-in-stores' class='hidden best-seller-type'>
+      <ul>
+          <li>
+            <img src ="img/img-1.png"/>
+          </li>
+          <li>
+            <img src ="img/img-4.png"/>
+          </li>
+          <li>
+            <img src ="img/img-5.png"/>
+          </li>
+          <li>
+            <img src ="img/img-2.png"/>
+          </li>
+          <li>
+            <img src ="img/img-3.png"/>
+          </li>
+      </ul>
+    </div>
+
+    <div id='best-sellers-online-last-week' class='hidden best-seller-type'>
+      <ul>
+          <li>
+            <img src ="img/img-1.png"/>
+          </li>
+          <li>
+            <img src ="img/img-3.png"/>
+          </li>
+          <li>
+            <img src ="img/img-4.png"/>
+          </li>
+          <li>
+            <img src ="img/img-2.png"/>
+          </li>
+          <li>
+            <img src ="img/img-5.png"/>
+          </li>
+      </ul>
+    </div>
+
+    <div id='best-sellers-in-stores-last-week' class='hidden best-seller-type'>
+      <ul>
+          <li>
+            <img src ="img/img-4.png"/>
+          </li>
+          <li>
+            <img src ="img/img-5.png"/>
+          </li>
+          <li>
+            <img src ="img/img-1.png"/>
+          </li>
+          <li>
+            <img src ="img/img-2.png"/>
+          </li>
+          <li>
+            <img src ="img/img-3.png"/>
+          </li>
+      </ul>
+    </div>
+
+    <div id='best-sellers-all-time' class='hidden best-seller-type'>
+      <ul>
+          <li>
+            <img src ="img/img-1.png"/>
+          </li>
+          <li>
+            <img src ="img/img-3.png"/>
+          </li>
+          <li>
+            <img src ="img/img-5.png"/>
+          </li>
+          <li>
+            <img src ="img/img-2.png"/>
+          </li>
+          <li>
+            <img src ="img/img-4.png"/>
+          </li>
+      </ul>
+    </div>
+
+    </div>
+
+    <div id='inventory'>
+      <h3>Incoming Inventory</h3>
+      <div id='scrolling-boxes' class='scroll-text'>
+        <marquee>
+        <ul>
+          <li><p>cr-pm
+            <br>72
+            <br>MAR-04</p>
+          </li>
+          <li><p>wr-ls
+            <br>302
+            <br>NOV-05</p>
+          </li>
+          <li><p>ua-gsas
+            <br>105
+            <br>DEC-03</p>
+          </li>
+          <li><p>cr-om
+            <br>600
+            <br>FEB-05</p>
+          </li>
+          <li><p>cr-pm
+            <br>72
+            <br>SEP-04</p>
+          </li>
+          <li><p>wr-ls
+            <br>302
+            <br>FEB-05</p>
+          </li>
+          <li><p>ua-gsas
+            <br>105
+            <br>OCT-03</p>
+          </li>
+          <li><p>cr-om
+            <br>600
+            <br>MAR-05</p>
+          </li>
+          <li><p>cr-pm
+            <br>72
+            <br>AUG-04</p>
+          </li>
+          <li><p>wr-ls
+            <br>302
+            <br>APR-05</p>
+          </li>
+          <li><p>ua-gsas
+            <br>105
+            <br>MAY-03</p>
+          </li>
+          <li><p>cr-om
+            <br>600
+            <br>JUL-05</p>
+          </li>
+        </ul>
+      </marquee>
+      </div>
+
+    </div>
+
+
+    <script>
+      $(document).ready(function() {
+        $('#best-sellers-nav li').click(function() {
+          removeBestSellersClickedLinks();
+
+          hideBestSellers();
+          $(this).addClass('clicked');
+          var clickedElement = $(this).attr('id');
+          switch (clickedElement) {
+            case 'best-sellers-online-link':
+              $('#best-sellers-online').removeClass('hidden');
+              break;
+            case 'best-sellers-in-stores-link':
+              $('#best-sellers-in-stores').removeClass('hidden');
+              break;
+            case 'best-sellers-online-last-week-link':
+              $('#best-sellers-online-last-week').removeClass('hidden');
+              break;
+            case 'best-sellers-in-stores-last-week-link':
+              $('#best-sellers-in-stores-last-week').removeClass('hidden');
+              break;
+            case 'best-sellers-all-time-link':
+              $('#best-sellers-all-time').removeClass('hidden');
+              break;
+            default:
+              // do nothing
+          }
+        });
+      });
+
+
+      function removeBestSellersHighlightedLinks() {
+        $('#best-sellers-nav li.highlighted').removeClass('highlighted');
+      }
+
+      function hideBestSellersClickedLinks() {
+        $('#best-sellers-nav li.clicked').addClass('clicked-hidden');
+      }
+
+      function showBestSellersClickedLinks() {
+        $('#best-sellers-nav li.clicked-hidden').removeClass('clicked-hidden');
+      }
+
+      function removeBestSellersClickedLinks() {
+        $('#best-sellers-nav li.clicked').removeClass('clicked');
+      }
+
+      function hideBestSellers() {
+        $('.best-seller-type').addClass('hidden');
+      }
+
+      $(document).ready(function() {
+        $('#revenue-nav li').click(function() {
+          removeRevenueClickedLinks();
+
+          hideRevenue();
+          $(this).addClass('clicked');
+          var clickedElement = $(this).attr('id');
+          switch (clickedElement) {
+            case 'revenue-this-week-link':
+              $('#revenue-this-week').removeClass('hidden');
+              break;
+            case 'revenue-last-week-link':
+              $('#revenue-last-week').removeClass('hidden');
+              break;
+            case 'revenue-this-month-link':
+              $('#revenue-this-month').removeClass('hidden');
+              break;
+            case 'revenue-this-year-link':
+              $('#revenue-this-year').removeClass('hidden');
+              break;
+            case 'revenue-all-time-link':
+              $('#revenue-all-time').removeClass('hidden');
+              break;
+            default:
+              // do nothing
+          }
+        });
+      });
+
+      function removeRevenueHighlightedLinks() {
+        $('#revenue-nav li.highlighted').removeClass('highlighted');
+      }
+
+      function hideRevenueClickedLinks() {
+        $('#revenue-nav li.clicked').addClass('clicked-hidden');
+      }
+
+      function showRevenueClickedLinks() {
+        $('#revenue-nav li.clicked-hidden').removeClass('clicked-hidden');
+      }
+
+      function removeRevenueClickedLinks() {
+        $('#revenue-nav li.clicked').removeClass('clicked');
+      }
+
+      function hideRevenue() {
+        $('.revenue-type').addClass('hidden');
+      }
+
+      $(document).ready(function() {
+        $('#units-sold-nav li').click(function() {
+          removeUnitsSoldClickedLinks();
+
+          hideUnitsSold();
+          $(this).addClass('clicked');
+          var clickedElement = $(this).attr('id');
+          switch (clickedElement) {
+            case 'units-sold-this-week-link':
+              $('#units-sold-this-week').removeClass('hidden');
+              break;
+            case 'units-sold-last-week-link':
+              $('#units-sold-last-week').removeClass('hidden');
+              break;
+            case 'units-sold-this-month-link':
+              $('#units-sold-this-month').removeClass('hidden');
+              break;
+            case 'units-sold-this-year-link':
+              $('#units-sold-this-year').removeClass('hidden');
+              break;
+            case 'units-sold-all-time-link':
+              $('#units-sold-all-time').removeClass('hidden');
+              break;
+            default:
+              // do nothing
+          }
+        });
+      });
+
+      function removeUnitsSoldHighlightedLinks() {
+        $('#units-sold-nav li.highlighted').removeClass('highlighted');
+      }
+
+      function hideUnitsSoldClickedLinks() {
+        $('#units-old-nav li.clicked').addClass('clicked-hidden');
+      }
+
+      function showUnitsSoldClickedLinks() {
+        $('#units-sold-nav li.clicked-hidden').removeClass('clicked-hidden');
+      }
+
+      function removeUnitsSoldClickedLinks() {
+        $('#units-sold-nav li.clicked').removeClass('clicked');
+      }
+
+      function hideUnitsSold() {
+        $('.units-sold-type').addClass('hidden');
+      }
+
+      $(document).ready(function() {
+        $('#conversion-nav li').click(function() {
+          removeConversionClickedLinks();
+
+          hideConversion();
+          $(this).addClass('clicked');
+          var clickedElement = $(this).attr('id');
+          switch (clickedElement) {
+            case 'conversion-this-week-link':
+              $('#conversion-this-week').removeClass('hidden');
+              break;
+            case 'conversion-last-week-link':
+              $('#conversion-last-week').removeClass('hidden');
+              break;
+            case 'conversion-this-month-link':
+              $('#conversion-this-month').removeClass('hidden');
+              break;
+            case 'conversion-this-year-link':
+              $('#conversion-this-year').removeClass('hidden');
+              break;
+            case 'conversion-all-time-link':
+              $('#conversion-all-time').removeClass('hidden');
+              break;
+            default:
+              // do nothing
+          }
+        });
+      });
+
+      function removeConversionHighlightedLinks() {
+        $('#conversion-nav li.highlighted').removeClass('highlighted');
+      }
+
+      function hideConversionClickedLinks() {
+        $('#conversion-nav li.clicked').addClass('clicked-hidden');
+      }
+
+      function showConversionClickedLinks() {
+        $('#conversion-nav li.clicked-hidden').removeClass('clicked-hidden');
+      }
+
+      function removeConversionClickedLinks() {
+        $('#conversion-nav li.clicked').removeClass('clicked');
+      }
+
+      function hideConversion() {
+        $('.conversion-type').addClass('hidden');
+      }
+
+    </script>
+  </body>
+</HTML>
